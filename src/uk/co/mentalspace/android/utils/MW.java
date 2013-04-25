@@ -13,7 +13,7 @@ public interface MW {
 	
 	//intents received by MWM-CE
 	public static final String ACTION_UPDATE = "org.metawatch.manager.APPLICATION_UPDATE";
-	public static final String ACTION_ANNOUNCE = "org.metawarch.manager.APPLICATION_ANNOUNCE";
+	public static final String ACTION_ANNOUNCE = "org.metawatch.manager.APPLICATION_ANNOUNCE";
 	public static final String ACTION_START = "org.metawarch.manager.APPLICATION_START";
 	public static final String ACTION_STOP = "org.metawatch.manager.APPLICATION_STOP";
 	public static final String ACTION_NOTIFICATION = "org.metawatch.manager.NOTIFICATION";
@@ -43,7 +43,7 @@ public interface MW {
 	
 	public static final String EXTRA_VIBRATE_ON = "vibrate_on";
 	public static final String EXTRA_VIBRATE_OFF = "vibrate_off";
-	public static final String EXTRA_VIBRATE_CYCLES = "vibrate_cycle";
+	public static final String EXTRA_VIBRATE_CYCLES = "vibrate_cycles";
 	
 	public static final String EXTRA_SILENT_MODE_ENABLED = "enabled";
 	
@@ -52,4 +52,10 @@ public interface MW {
 	public static final String EXTRA_WIDGET_WIDTH = "width";
 	public static final String EXTRA_WIDGET_HEIGHT = "height";
 	public static final String EXTRA_WIDGET_PRIORITY = "priority";
+
+	public static final int BUTTON_TYPE_PRESS = 0;
+	public static final int BUTTON_TYPE_NO_HOLD = 1;
+	public static final int BUTTON_TYPE_SHORT_HOLD = 2;
+	public static final int BUTTON_TYPE_LONG_HOLD = 3;
+	
 }
