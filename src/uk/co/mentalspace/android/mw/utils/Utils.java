@@ -1,4 +1,4 @@
-package uk.co.mentalspace.android.utils;
+package uk.co.mentalspace.android.mw.utils;
 
 import java.io.IOException;
 import java.io.InputStream;

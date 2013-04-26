@@ -1,4 +1,4 @@
-package uk.co.mentalspace.android.utils;
+package uk.co.mentalspace.android.mw.utils;
 
 public interface MW {
 
